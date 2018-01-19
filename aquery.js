@@ -2,7 +2,6 @@ function aquery(r){
 	return new Promise((resolve,reject) => {
 	 let asyncr = r.asyn || true,
 			 method = r.method || r.type || "GET",
-				dType = r.dataType || null,
 					url = r.url || r,
 		 datasend = '';
 		if(r.data){
